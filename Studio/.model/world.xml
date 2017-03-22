@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comp:World xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:comp="http://virtubuil.com/schemas/comp.ecore" deletable="false" uuid="_8fNuADTNEeSDp-UE12WecQ" name="world">
+  <variables xsi:type="comp:DeclaredVariable" uuid="_mfAtIAfsEeeKMIz14RSHLQ" name="custrange" visibility="800">
+    <domain uuid="_mfAtIQfsEeeKMIz14RSHLQ" name="local" visibility="300">
+      <typeSet uuid="_mfAtIgfsEeeKMIz14RSHLQ" bitSet="393226"/>
+      <values uuid="_pXBcEAfsEeeKMIz14RSHLQ" name="1" editable="false" visibility="300"/>
+      <values uuid="_pg9bMAfsEeeKMIz14RSHLQ" name="2" editable="false" visibility="300"/>
+      <values uuid="_ppMKIAfsEeeKMIz14RSHLQ" name="3" editable="false" visibility="300"/>
+      <values uuid="_pxZq8AfsEeeKMIz14RSHLQ" name="4" editable="false" visibility="300"/>
+      <values uuid="_p0rBYAfsEeeKMIz14RSHLQ" name="5" editable="false" visibility="300"/>
+      <values uuid="_p4qJgAfsEeeKMIz14RSHLQ" name="6" editable="false" visibility="300"/>
+      <values uuid="_qC5qoAfsEeeKMIz14RSHLQ" name="7" editable="false" visibility="300"/>
+      <values uuid="_qMymcAfsEeeKMIz14RSHLQ" name="8" editable="false" visibility="300"/>
+      <values uuid="_qZLcoAfsEeeKMIz14RSHLQ" name="9" editable="false" visibility="300"/>
+      <values uuid="_q549AAfsEeeKMIz14RSHLQ" name="10" editable="false" visibility="300"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_6PgmsAftEeeKMIz14RSHLQ" name="arccos" visibility="800">
+    <domain uuid="_6PgmsQftEeeKMIz14RSHLQ" name="local" visibility="300">
+      <typeSet uuid="_6PgmsgftEeeKMIz14RSHLQ" bitSet="8"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_7LrUAAftEeeKMIz14RSHLQ" name="arcsine" visibility="800">
+    <domain uuid="_7LrUAQftEeeKMIz14RSHLQ" name="local" visibility="300">
+      <typeSet uuid="_7LrUAgftEeeKMIz14RSHLQ" bitSet="8"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_8GbFAAftEeeKMIz14RSHLQ" name="arctan" visibility="800">
+    <domain uuid="_8GbFAQftEeeKMIz14RSHLQ" name="local" visibility="300">
+      <typeSet uuid="_8GbFAgftEeeKMIz14RSHLQ" bitSet="8"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_vjJ7QAf5EeeKMIz14RSHLQ" name="acosrad" visibility="800">
+    <domain uuid="_vjJ7QQf5EeeKMIz14RSHLQ" name="local" visibility="300">
+      <typeSet uuid="_vjKiUAf5EeeKMIz14RSHLQ" bitSet="8"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_PwnTQAiUEee5Bd_CspqAIw" name="z" visibility="800">
+    <domain uuid="_PwnTQQiUEee5Bd_CspqAIw" name="local" visibility="300">
+      <typeSet uuid="_PwnTQgiUEee5Bd_CspqAIw" bitSet="2"/>
+      <values uuid="_UlafAAiUEee5Bd_CspqAIw" name="1..100" editable="false" visibility="300"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_qWmd8AiVEee5Bd_CspqAIw" name="w" visibility="800">
+    <domain uuid="_qWmd8QiVEee5Bd_CspqAIw" name="local" visibility="300">
+      <typeSet uuid="_qWmd8giVEee5Bd_CspqAIw" bitSet="393224"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_rFqjYAiVEee5Bd_CspqAIw" name="x" visibility="800">
+    <domain uuid="_rFqjYQiVEee5Bd_CspqAIw" name="local" visibility="300">
+      <typeSet uuid="_rFqjYgiVEee5Bd_CspqAIw" bitSet="8"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_2PNDoAiVEee5Bd_CspqAIw" name="v" visibility="800">
+    <domain uuid="_2PNDoQiVEee5Bd_CspqAIw" name="local" visibility="300">
+      <typeSet uuid="_2PNDogiVEee5Bd_CspqAIw" bitSet="8"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="__HrG4AiaEee5Bd_CspqAIw" name="remain" visibility="800">
+    <domain uuid="__HrG4QiaEee5Bd_CspqAIw" name="local" visibility="300">
+      <typeSet uuid="__HrG4giaEee5Bd_CspqAIw" bitSet="8"/>
+    </domain>
+  </variables>
+  <variables xsi:type="comp:DeclaredVariable" uuid="_dHEn4AlhEeeNceEDV136bA" name="arctan2" visibility="800">
+    <domain uuid="_dHEn4QlhEeeNceEDV136bA" name="local" visibility="300">
+      <typeSet uuid="_dHEn4glhEeeNceEDV136bA" bitSet="8"/>
+    </domain>
+  </variables>
+  <calculation uuid="_iD34MAfkEeeKMIz14RSHLQ" name="Calculation_Rules" visibility="800" text="/*-------------------------------------&#x9;&#x9;Basic Math Fun&#x9;-----------------------------------------*/&#xD;&#xA;&#xD;&#xA;x = 3 * (1+1) / 4;  &#x9;&#x9;&#x9;&#x9;  /*-------------Order---------------*/ &#xD;&#xA;w = 3 * 1 + 1 / 4;  &#x9;&#x9;&#x9;&#x9; /*---------------Of----------------*/ /*All Pass*/&#xD;&#xA;v = 3 * (1 + 1 / 4); &#x9;&#x9;&#x9;&#x9;/*-----------Operations----------*/&#xD;&#xA;&#xD;&#xA;/*-------------------------------------&#x9;&#x9;Function Panel&#x9;&#x9;------------------------------------------*/&#xD;&#xA;&#xD;&#xA;absolute = abs(-100); // pass&#xD;&#xA;arccos = acos(-1); // pass&#xD;&#xA;arcsine = asin(1); // pass&#xD;&#xA;arctan = atan(1); // pass&#xD;&#xA;arctan2 = atan2(4,1); // pass &#xD;&#xA;ceiling = ceil(1.5); // pass&#xD;&#xA;cosine = cos(0); // pass&#xD;&#xA;exponential = exp(3); // pass&#xD;&#xA;floorvar = floor(1.5); // pass&#xD;&#xA;remain = IEEEremainder(167,17); // pass&#xD;&#xA;log1 = log(1); // pass&#xD;&#xA;maxvar = max(1,5); // pass&#xD;&#xA;minvar = min(1,5); // pass&#xD;&#xA;powerfn = pow(2,5); // pass&#xD;&#xA;rand = random(z); &#x9;/*----- Always 0 ----- More Tests Required -----*/&#xD;&#xA;round = round(1.82938); // pass&#xD;&#xA;sine = sin(1); // pass&#xD;&#xA;squareroot = sqrt(3.14); // pass&#x9;&#xD;&#xA;tangent = tan(1); // pass&#xD;&#xA;acosdeg = toDegrees(arccos); // pass&#xD;&#xA;acosrad = toRadians(acosdeg); // pass&#xD;&#xA;&#xD;&#xA;/*------------------------------------&#x9;&#x9;String and List Manipulation&#x9;&#x9;-------------------------------------------------------*/&#xD;&#xA;&#xD;&#xA;string1 = &quot;AAAAAAAAA&quot;;&#xD;&#xA;string1.replaceAll(&quot;A&quot;,&quot;B&quot;); /*-----  Issue Reported  -----*/&#xD;&#xA;println(&quot;Replace All Result: &quot; + string1);&#xD;&#xA;//&#xD;&#xA;string2 = &quot;ABABABABABA&quot;;&#xD;&#xA;string2.replaceFirst(&quot;B&quot;,&quot;A&quot;); /*-----  Issue Reported  -----*/&#xD;&#xA;println(&quot;Replace First Result: &quot; + string2);&#xD;&#xA;//&#xD;&#xA;var myList1 = {1, 3, 7, 19, 2, 17, 35, 42, 5}; // pass&#xD;&#xA;var myList2 = {2, 4, 8, 20, 9, 18, 34, 41, 39}; // pass&#xD;&#xA;&#xD;&#xA;x = myList1[3]; // pass&#xD;&#xA;&#xD;&#xA;myList2[3] = 99; // pass&#xD;&#xA;&#xD;&#xA;println(&quot;List 1 =  &quot; + myList1 + &quot; and List 2 = &quot; + myList2); // pass&#xD;&#xA;&#xD;&#xA;println(&quot;String1 length is : &quot; + string1.length()); //pass&#xD;&#xA;println(string2.substring(2,5));&#xD;&#xA;&#xD;&#xA;var myList3= {&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;};&#xD;&#xA;myList3.pop();&#xD;&#xA;println(myList3);&#xD;&#xA;&#xD;&#xA;var myList4= {&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;};&#xD;&#xA;myList4.push(&quot;Hello World&quot;);  //Only Allows addition of 1 item 2 the list per Push&#xD;&#xA;println(myList4);&#xD;&#xA;&#xD;&#xA;var myList5= {&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;};&#xD;&#xA;myList5.shift();&#xD;&#xA;println(myList5);&#xD;&#xA;&#xD;&#xA;var myList6= {&quot;a&quot;,&quot;b&quot;,&quot;c&quot;,&quot;d&quot;,&quot;e&quot;};&#xD;&#xA;myList6.unshift(&quot;Hello World&quot;, &quot;Good Bye World&quot;);  // Only allows addition of 2 items to the List per unshift&#xD;&#xA;println(myList6);&#xD;&#xA;&#xD;&#xA;/*------------------------------------&#x9;&#x9;Statements&#x9;&#x9;-------------------------------------------- */&#xD;&#xA;&#xD;&#xA;a = 5;&#xD;&#xA;b = 6;&#xD;&#xA;if (a > b) {&#xD;&#xA;&#x9;&#x9;c = &quot;A is greater than B&quot;;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else c = &quot;B is greater than A&quot;;  // pass&#xD;&#xA;&#xD;&#xA;var d = 0;&#xD;&#xA;for (var i = 0; i &lt; 10; i = i+1) {&#xD;&#xA;&#x9;d = d + i;&#x9;} // pass&#xD;&#xA;&#xD;&#xA;/*---------------------------------------------&#x9;&#x9;Boolean Tests&#x9;&#x9;-----------------------------------------------------*/&#xD;&#xA;&#xD;&#xA;if (angle >= 0 &amp;&amp; angle &lt;= 360) {&#xD;&#xA;&#x9;angleVaild = true;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if (angle &lt; 0 || angle > 360) {&#xD;&#xA;&#x9;&#x9;angleValid = false;&#xD;&#xA;&#x9;}&#xD;&#xA;&#xD;&#xA;if (angleValid == true) {&#xD;&#xA;&#x9;&#x9;if (angle != 90) {&#xD;&#xA;&#x9;&#x9;&#x9;rightAngle = &quot;Not a Right Angle&quot;;&#xD;&#xA;&#x9;&#x9;}&#xD;&#xA;&#x9;&#x9;else rightAngle = &quot;Right Angle&quot;;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else rightAngle = &quot;Not a valid Angle&quot;;&#xD;&#xA;&#xD;&#xA;if (angle != 90 &amp;&amp; angleValid == true) {&#xD;&#xA;&#x9;rightAngle = &quot;Not a Right Angle&quot;;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else if (angle != 90 &amp;&amp; angleValid  == false) {&#xD;&#xA;&#x9;&#x9;rightAngle = &quot;Not a Valid Angle&quot;;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else rightAngle = &quot;Right Angle&quot;;&#xD;&#xA;&#xD;&#xA;if (angle != 90 &amp;&amp; (angleValid == true || angleValid == false)) {&#xD;&#xA;&#x9;rightAngle = &quot;Not a Right Angle&quot;;&#xD;&#xA;&#x9;}&#xD;&#xA;&#x9;else rightAngle = &quot;Right Angle&quot;;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#x9;"/>
+  <controls xsi:type="comp:PickComponent" uuid="_h64PwA4wEeevt5Kwbv8Lig" name="Pick_Component_Control" includeTOAs=""/>
+  <role uuid="_qucXoHAAEeSk24oMIozLgA" name="insertfree" customType="insertfree">
+    <domain uuid="_qucXoXAAEeSk24oMIozLgA" name="local" visibility="300">
+      <typeSet uuid="_GINPIKTqEea8d6P1JTl01w" bitSet="65536"/>
+      <values uuid="_7GD-AFc5EeWo-40Qyxiobw" name="link_owner_component" editable="false" visibility="300"/>
+    </domain>
+  </role>
+  <viewPointsTwoD uuid="_x_QZwElnEeSga5qFy3girQ" name="ViewPoint_initial" fieldOfView="784" isInitial="true" positionX="200" positionY="200"/>
+</comp:World>

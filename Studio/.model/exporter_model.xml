@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exporter:ExporterModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:exporter="http://virtubild.com/schemas/exporter.ecore" deletable="false" uuid="_GD4IwKTqEea8d6P1JTl01w">
+  <exporters xsi:type="exporter:DocumentExporter" uuid="_xp8mIA4vEeevt5Kwbv8Lig" name="Document_Exporter"/>
+  <itemExports uuid="_yeH1EA4vEeevt5Kwbv8Lig" name="Item_Export_Structure"/>
+  <groupers uuid="_0NIUkA4vEeevt5Kwbv8Lig" name="Grouper" type="DTE" itemExport="_yeH1EA4vEeevt5Kwbv8Lig"/>
+</exporter:ExporterModel>
